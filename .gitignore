@@ -1,0 +1,19 @@
+# Ignore all CSV files
+*.csv
+
+# Ignore all images in output/images
+output/images/*
+
+# Ignore all images in root (common formats)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+# Ignore all zip files
+*.zip
+*.rar
+
+# But do not ignore Jupyter notebooks
+!*.ipynb
